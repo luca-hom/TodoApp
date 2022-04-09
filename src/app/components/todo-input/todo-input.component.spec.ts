@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FooComponent } from './foo.component';
+import { TodoInputComponent } from './todo-input.component';
 
-describe('FooComponent', () => {
-  let component: FooComponent;
-  let fixture: ComponentFixture<FooComponent>;
+describe('TodoInputComponent', () => {
+  let component: TodoInputComponent;
+  let fixture: ComponentFixture<TodoInputComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FooComponent ]
+      declarations: [ TodoInputComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FooComponent);
+    fixture = TestBed.createComponent(TodoInputComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,8 @@
+<p>todo-input works!</p>
+<p>Dies ist eine TODO-Liste. Trage Name und Tätigkeit ein: <br></p>
+
+<div class="area">
+  <label for="name-input">Name:</label> <input id="name-input" type="text" [(ngModel)]="todoName">  <br>
+  <label for="todo-input">TODO:</label> <input id= "todo-input" type="text" [(ngModel)]="todoValue"> <br><br>
+  <button (click)="addTodo();">Submit</button> <br>
+</div>

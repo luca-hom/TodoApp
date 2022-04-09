@@ -1,2 +1,6 @@
-<p>hello world</p>
-<p>{{title}}</p>
+<h1 class="title">TODO Liste</h1>
+
+<app-todo-input (onAddTodo)="addTodo($event)"></app-todo-input>
+<app-todo-list [todoList]="todoList"></app-todo-list>
+
+

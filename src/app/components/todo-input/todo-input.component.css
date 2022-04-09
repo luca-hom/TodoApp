@@ -1,8 +1,4 @@
-.title{
-  color: maroon;
-}
-
-div.area {
+div {
   padding: 5px;
   background: lightgrey;
   border-style: solid;
